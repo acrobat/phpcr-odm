@@ -791,9 +791,9 @@ abstract class AbstractMappingDriverTest extends TestCase
     public function testUuidMapping(ClassMetadata $class)
     {
         $this->assertObjectHasAttribute('uuidFieldName', $class);
-        // $this->assertEquals('uuid', $class->uuidFieldName);
-        // $this->assertEquals('string', $class->mappings['uuid']['type']);
-        // $this->assertEquals('jcr:uuid', $class->mappings['uuid']['property']);
+        $this->assertEquals('uuid', $class->uuidFieldName);
+        $this->assertEquals('string', $class->mappings['uuid']['type']);
+        $this->assertEquals('jcr:uuid', $class->mappings['uuid']['property']);
     }
 
     /**
