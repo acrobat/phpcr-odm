@@ -5,6 +5,7 @@ on:
     push:
         branches:
             - 'master'
+            - 'sf6-pr-fixes-2'
 
 jobs:
     phpunit-doctrine_dbal:
