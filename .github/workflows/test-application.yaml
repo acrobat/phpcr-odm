@@ -37,7 +37,7 @@ jobs:
                 include:
                     - php-version: '7.1'
                       dependencies: lowest
-                      symfony-version: *
+                      symfony-version: '*'
                     - php-version: '7.4'
                       dependencies: highest
                       symfony-version: 2.3.*
@@ -114,7 +114,7 @@ jobs:
                 include:
                     - php-version: '7.1'
                       dependencies: lowest
-                      symfony-version: *
+                      symfony-version: '*'
                     - php-version: '7.4'
                       dependencies: highest
                       symfony-version: 2.3.*
